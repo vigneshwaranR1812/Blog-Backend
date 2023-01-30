@@ -15,6 +15,10 @@ const postSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    postImage: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,
